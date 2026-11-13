@@ -1,0 +1,21 @@
+{
+  "_note": "Edit to add/remove feeds. 'category' is the category hint; type 'google' = aggregator (no images/summaries), 'direct' = publisher feed (images + summaries). Verify URLs via GET /api/health after deploying.",
+  "feeds": [
+    {"id": "wired-tech", "type": "direct", "category": "technology", "publisher": "Wired", "url": "https://www.wired.com/feed/rss"},
+    {"id": "9to5mac", "type": "direct", "category": "technology", "publisher": "9to5Mac", "url": "https://9to5mac.com/feed/"},
+    {"id": "bbc-tech", "type": "direct", "category": "technology", "publisher": "BBC News", "url": "https://feeds.bbci.co.uk/news/technology/rss.xml"},
+    {"id": "ars-tech", "type": "direct", "category": "technology", "publisher": "Ars Technica", "url": "https://feeds.arstechnica.com/arstechnica/index"},
+    {"id": "thehill", "type": "direct", "category": "government", "publisher": "The Hill", "url": "https://thehill.com/feed/"},
+    {"id": "politico", "type": "direct", "category": "government", "publisher": "Politico", "url": "https://rss.politico.com/politics-news.xml"},
+    {"id": "bbc-politics", "type": "direct", "category": "government", "publisher": "BBC News", "url": "https://feeds.bbci.co.uk/news/politics/rss.xml"},
+    {"id": "decrypt-crypto", "type": "direct", "category": "crypto", "publisher": "Decrypt", "url": "https://decrypt.co/feed"},
+    {"id": "coindesk", "type": "direct", "category": "crypto", "publisher": "CoinDesk", "url": "https://www.coindesk.com/arc/outboundfeeds/rss/"},
+    {"id": "cointelegraph", "type": "direct", "category": "crypto", "publisher": "Cointelegraph", "url": "https://cointelegraph.com/rss"},
+    {"id": "benzinga-markets", "type": "direct", "category": "stocks", "publisher": "Benzinga", "url": "https://www.benzinga.com/feed"},
+    {"id": "fortune-markets", "type": "direct", "category": "stocks", "publisher": "Fortune", "url": "https://fortune.com/feed/"},
+    {"id": "gn-technology", "type": "google", "category": "technology", "url": "https://news.google.com/rss/search?q=technology+OR+AI+OR+software+OR+chips+when:1d&hl=en-US&gl=US&ceid=US:en"},
+    {"id": "gn-government", "type": "google", "category": "government", "url": "https://news.google.com/rss/search?q=government+policy+OR+legislation+OR+regulation+OR+Congress+when:1d&hl=en-US&gl=US&ceid=US:en"},
+    {"id": "gn-crypto", "type": "google", "category": "crypto", "url": "https://news.google.com/rss/search?q=bitcoin+OR+ethereum+OR+crypto+when:1d&hl=en-US&gl=US&ceid=US:en"},
+    {"id": "gn-stocks", "type": "google", "category": "stocks", "url": "https://news.google.com/rss/search?q=stock+market+OR+earnings+OR+Federal+Reserve+when:1d&hl=en-US&gl=US&ceid=US:en"}
+  ]
+}

@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+
+# Builds and distribution packages
+dist/
+build/
+s3-upload/
+*.zip
+.aws-sam/
+
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+*.env
+!*.env.example
+
+# Logs and OS files
+*.log
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
